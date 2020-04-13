@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "nepvoy": {
+      "hosting": {
+        "nepvoy": [
+          "nepvoy"
+        ]
+      }
+    }
+  }
+}

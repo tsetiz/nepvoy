@@ -1,0 +1,33 @@
+.sign-in {
+  display: flex;
+  background: gainsboro;
+}
+
+.sign-in mat-card {
+  flex: 1;
+}
+
+.sign-in mat-card-content {
+  margin-bottom: 0;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.sign-in button {
+  width: 100%;
+  background: bisque;
+}
+
+@media (min-width: 600px) {
+  .sign-in {
+    height: calc(100vh - 50px);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign-in mat-card {
+    flex: 0 1 auto;
+  }
+}

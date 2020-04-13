@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "nepvoy",
+      "public": "dist/nepvoy",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
